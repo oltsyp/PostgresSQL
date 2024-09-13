@@ -28,4 +28,9 @@ public class UserServiceImpl implements UserService {
     public void cleanUsersTable() {
 
     }
+
+    @Override
+    public void saveUser(User user) {
+
+    }
 }
