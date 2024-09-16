@@ -70,19 +70,4 @@ public class UserDaoHibernateImpl implements UserDao {
             session.getTransaction().commit();
         }
     }
-
-//    @Override
-//    public void saveUser(User user) {
-//        try (Session session = sessionFactory.getCurrentSession()) {
-//            session.beginTransaction();
-//            session.save(new User(name, lastName, age));
-//            session.getTransaction().commit();
-//        }
-//    }
 }
-
-//    CREATE TABLE IF NOT EXISTS USERS" +
-//        "  id       BIGINT       PRIMARY KEY AUTOINCREMENT NOT NULL," +
-//        "  name     VARCHAR(250) DEFAULT NULL," +
-//        "  lastname VARCHAR(250) DEFAULT NULL," +
-//        "  age      TINYINT      DEFAULT NULL)

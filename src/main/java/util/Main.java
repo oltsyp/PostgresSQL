@@ -16,6 +16,7 @@ public class Main {
     public static void main(String[] args) {
 
         UserDao userDao = new UserDaoHibernateImpl();
+        UserService userService = new UserServiceImpl();
 
         /* create new user */
           userDao.createUsersTable();
